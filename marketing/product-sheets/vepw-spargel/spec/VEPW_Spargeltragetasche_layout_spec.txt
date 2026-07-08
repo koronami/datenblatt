@@ -1,0 +1,83 @@
+Format: A4 Hochformat, 300 dpi
+Beschnitt: 3 mm (Bleed)
+Arbeitsfläche (mit Beschnitt): 216 × 303 mm → 2551 × 3628 px @300dpi
+Endformat (ohne Beschnitt): 210 × 297 mm → 2480 × 3508 px @300dpi
+Sichere Innenabstände (Margin): 12 mm rundum → 142 px
+
+Farbmodus
+- PNG: sRGB, 8‑bit, PNG‑24, kein Alpha (Weißhintergrund)
+- PDF (Druck): CMYK, FOGRA39 (ISO Coated v2), Export als PDF/X‑1a:2001, 3 mm Bleed
+
+Assets (Dateinamen im Repo)
+- marketing/product-sheets/vepw-spargel/assets/hero_image_02.jpg
+- marketing/product-sheets/vepw-spargel/assets/logo_vepw_color.png
+
+Output (Zieldateien)
+- marketing/product-sheets/vepw-spargel/exports/VEPW_Spargeltragetasche_ProductSheet_A4_300dpi.png
+- marketing/product-sheets/vepw-spargel/exports/VEPW_Spargeltragetasche_ProductSheet_A4_300dpi_CMYK.pdf
+
+Grid & Platzierung (Pixel auf 2480×3508 px Canvas)
+- linke sichere X = 142 px
+- rechte sichere X = 2338 px (2480-142)
+- obere sichere Y = 142 px
+- Logo: Position (142,142), max width 709 px (60 mm)
+- Hero (Bild 2) — Crop 1:1, empfohlen 1300×1300 px
+  - Hero bounds: x from 1038 to 2338 px, y from 212 to 1512 px
+- Headline block: X = 142 px, Y = 212 px, Breite max 872 px (space left of hero)
+- Selling points: direkt unter Hero, Y ≈ 1520 px
+- Untere Hälfte (zwei Spalten) beginnt Y ≈ 1710 px
+  - Linke Spalte (Technische Daten) x=142 px, Breite ≈ 1000 px
+  - Rechte Spalte (Staffelpreise) x≈1244 px, Breite ≈ 850 px
+- Footer: Y ≈ 3260 px (12 mm zum unteren Rand)
+
+Typografie (Empfehlung)
+- Font: Helvetica Neue oder Inter (Fallback: Arial)
+- H1: 36 pt Bold
+- Subhead: 18 pt Regular, Tracking +10
+- Selling Points: 14 pt Bold
+- Section Headings: 16 pt Bold
+- Body: 12 pt Regular
+- Footer CTA: 14 pt Bold
+
+Hero Shadow (Photoshop Werte)
+- Drop Shadow: Farbe #000000, Opacity 25%, Distance 47 px, Spread 0%, Size 95 px
+- Alternative: separate Shadow Layer mit Ellipse -> Gaussian Blur 95 px -> Opacity 25%
+
+Exakte Texte (Deutsch)
+Headline (oben links):
+Asparagus paper carrier bag
+water-resistant. high‑selling. durable.
+
+Selling Points (vier):
+- nassfest
+- Tragkraft: 5 kg
+- 250 Stück/Karton
+- Ideal für Hofladen und Direktvermarktung
+
+Technische Daten (linke Spalte):
+Technische Daten:
+Material: Papier, ca. 90 g/m²
+Ausführung: nassfest, mit Flachhenkel
+Maße: 260 + 170 × 250 mm
+Druck: brillanter Foto‑Druck
+Bedruckung: 2‑seitig bedruckt
+Verpackungseinheit: 250 Stück je Karton
+Kartongewicht: ca. 8 kg
+Tragkraft: 5 kg
+Aktuelle Produktion: 04/2026 – Lagerware
+Transportkosten: nach Aufwand (per Spedition)
+
+Staffelpreise (rechte Spalte):
+Staffelpreise (Paletten‑Abnahme):
+ab 1 PAL: 19,99 € / Karton
+ab 2 PAL: 18,99 € / Karton
+ab 3 PAL: 17,99 € / Karton
+
+Footer / CTA:
+Jetzt Muster anfordern & Angebot anfragen
+Tel. 01 77 - 3 73 69 78   |   info@vepw.de
+
+Notes
+- Verwenden Sie nur die Originalassets im Ordner assets/.
+- Keine Farbveränderung des Druckmotivs; nur minimale Helligkeits-/Kontraständerung ≤±5% falls nötig.
+- Proof: for print request a contract proof; colors will change when converting to CMYK.
